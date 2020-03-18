@@ -1,0 +1,17 @@
+
+public class Filme {
+
+	String Titulo;
+	
+	double duracaoEmMinutos;
+	
+	
+
+
+  double duracaoEmHoras () {
+    return duracaoEmMinutos/60;
+  }
+
+}
+
+
