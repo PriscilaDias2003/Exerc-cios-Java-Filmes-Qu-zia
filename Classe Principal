@@ -1,0 +1,52 @@
+
+public class TestarFilme {
+
+	public static void main(String[] args) {
+
+		Filme filme1 = new Filme();
+		Filme filme2 = new Filme();
+		Filme filme3 = new Filme();
+		Filme filme4 = new Filme();
+		Filme filme5 = new Filme();
+		Filme filme6 = new Filme();
+		Filme filme7 = new Filme();
+		
+		
+		filme1.Titulo = "Os vingadores";
+		filme1.duracaoEmMinutos = 142;
+		System.out.println(" O filme: "+ filme1.Titulo + "Possui duracão de " + filme1.duracaoEmHoras());
+	
+	
+		filme2.Titulo = "Hotel Transilvania";
+		filme2.duracaoEmMinutos = 93;
+		System.out.println(" O filme: "+ filme2.Titulo + "Possui duracão de " + filme2.duracaoEmHoras());
+		
+		filme3.Titulo = "Agile";
+		filme3.duracaoEmMinutos = 300;
+		System.out.println(" O filme: "+ filme3.Titulo + "Possui duracão de " + filme3.duracaoEmHoras());
+			
+		filme4.Titulo = "PIM";
+		filme4.duracaoEmMinutos = 400;
+		System.out.println(" O filme: "+ filme4.Titulo + "Possui duracão de " + filme4.duracaoEmHoras());
+			
+		filme5.Titulo = "Tiam";		
+		filme5.duracaoEmMinutos = 500;		
+		System.out.println(" O filme: "+ filme5.Titulo + "Possui duracão de " + filme5.duracaoEmHoras());
+					
+		filme6.Titulo = "Project";		
+		filme6.duracaoEmMinutos = 500;				
+		System.out.println(" O filme: "+ filme6.Titulo + "Possui duracão de " + filme6.duracaoEmHoras());
+					
+		filme7.Titulo = "Development";			
+		filme7.duracaoEmMinutos = 500;			
+		System.out.println(" O filme: "+ filme7.Titulo + "Possui duracão de " + filme7.duracaoEmHoras());
+							
+													
+	
+		System.out.println(" Os filme em cartaz são:"+ filme1.Titulo + ", " + filme2.Titulo + ", " + filme3.Titulo +  " ," + filme4.Titulo  + ", " + filme5.Titulo + ", " + filme6.Titulo + "e" + filme7.Titulo);
+		
+				
+		
+	}
+
+}
